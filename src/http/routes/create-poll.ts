@@ -24,6 +24,6 @@ export async function createPool(app: FastifyInstance) {
       },
     });
 
-    return reply.status(201).send({ poolId: poll.id });
+    return reply.status(201).send({ pollId: poll.id });
   });
 }
